@@ -1,0 +1,49 @@
+{
+  "HomePage": {
+    "title": "Welcome to Next.js with i18n",
+    "description": "This is a multilingual application using Next.js and next-intl",
+    "changeLanguage": "Change Language",
+    "currentLanguage": "Current Language: English"
+  },
+  "Navigation": {
+    "home": "Home",
+
+    "projects": "Projects",
+    "blog": "Blog",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us",
+    "projectsMenu": {
+      "blog": {
+        "title": "Blog",
+        "description": "The latest industry news, updates, and info"
+      },
+      "company": {
+        "title": "Company",
+        "description": "Our mission is to innovate and empower the world"
+      }
+    },
+    "servicesMenu": {
+      "web": {
+        "title": "Web Application Development",
+        "description": "Custom web apps built for speed, scale, and usability."
+      },
+      "mobile": {
+        "title": "Mobile Application Development",
+        "description": "Powerful mobile apps for Android and iOS users."
+      },
+      "cloud": {
+        "title": "Cloud Migration & Architecture",
+        "description": "Secure, scalable cloud solutions for modern businesses."
+      },
+      "ai": {
+        "title": "AI-Powered Solutions",
+        "description": "Leverage artificial intelligence to automate tasks, gain insights, and elevate your software to the next level."
+      },
+      "analytic": {
+        "title": "Real-time Analytics Solutions",
+        "description": "Stay ahead with real-time business intelligence."
+      }
+    }
+  }
+}

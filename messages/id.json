@@ -1,0 +1,48 @@
+{
+  "HomePage": {
+    "title": "Selamat Datang di Next.js dengan i18n",
+    "description": "Ini adalah aplikasi multibahasa menggunakan Next.js dan next-intl",
+    "changeLanguage": "Ubah Bahasa",
+    "currentLanguage": "Bahasa Saat Ini: Bahasa Indonesia"
+  },
+  "Navigation": {
+    "home": "Beranda",
+    "projects": "Proyek",
+    "blog": "Blog",
+    "about": "Tentang kami",
+    "services": "Layanan",
+    "contact": "Kontak Kami",
+    "projectsMenu": {
+      "blog": {
+        "title": "Blog",
+        "description": "Berita industri terbaru, pembaruan, dan info"
+      },
+      "company": {
+        "title": "Perusahaan",
+        "description": "Misi kami adalah berinovasi dan memberdayakan dunia"
+      }
+    },
+    "servicesMenu": {
+      "web": {
+        "title": "Pengembangan Aplikasi Web",
+        "description": "Aplikasi web kustom yang dibangun untuk kecepatan, skalabilitas, dan kemudahan penggunaan."
+      },
+      "mobile": {
+        "title": "Pengembangan Aplikasi Mobile",
+        "description": "Aplikasi mobile canggih untuk pengguna Android dan iOS."
+      },
+      "cloud": {
+        "title": "Migrasi & Arsitektur Cloud",
+        "description": "Solusi cloud yang aman, skalabel, dan modern untuk kebutuhan bisnis Anda."
+      },
+      "ai": {
+        "title": "Solusi Berbasis AI",
+        "description": "Manfaatkan kecerdasan buatan untuk mengotomatiskan tugas, mendapatkan insight, dan meningkatkan software ke level berikutnya."
+      },
+      "analytic": {
+        "title": "Solusi Analitik Real-time",
+        "description": "Selalu selangkah lebih maju dengan kecerdasan bisnis real-time."
+      }
+    }
+  }
+}
