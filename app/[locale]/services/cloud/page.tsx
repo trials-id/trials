@@ -57,7 +57,9 @@ function WebServicePage() {
   return (
     <div>
       <HeroWebSection
-        img={"/"}
+        img={
+          "https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
         title={t("cloud.title")}
         description={t("cloud.description")}
         cta={t("cta")}
