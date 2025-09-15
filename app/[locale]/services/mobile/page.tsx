@@ -4,7 +4,7 @@ import ServicesAccordion from "@/components/service-accordion";
 import { useTranslations } from "next-intl";
 import React from "react";
 
-function WebServicePage() {
+function MobileServicePage() {
   const t = useTranslations("Services");
 
   const sections = [
@@ -69,4 +69,4 @@ function WebServicePage() {
   );
 }
 
-export default WebServicePage;
+export default MobileServicePage;

@@ -18,6 +18,7 @@ import {
   MoveUpRight,
 } from "lucide-react";
 import { toast } from "sonner";
+import { useTranslations } from "next-intl";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -85,6 +86,8 @@ const ContactForm = () => {
     }
   };
 
+  const t = useTranslations("Contact");
+
   return (
     <div className='max-w-7xl mx-auto p-6 bg-gray-50 min-h-screen'>
       <div className='grid lg:grid-cols-2 gap-8'>
@@ -92,18 +95,13 @@ const ContactForm = () => {
         <Card className='bg-gradient-to-br from-slate-900 to-slate-800 text-white relative overflow-hidden'>
           <CardContent className='p-8 h-full flex flex-col justify-between'>
             <div className='space-y-12'>
-              <h1 className='text-4xl mb-4 leading-tight'>
-                Let's Build the Future Together with Comprehensive IT Solutions
-              </h1>
+              <h1 className='text-4xl mb-4 leading-tight'>{t("title")}</h1>
               <p className='text-gray-300 leading-relaxed'>
-                Partner with us to craft smart, scalable, and future-ready
-                digital solutions tailored to your business needs.
+                {t("description")}
               </p>
 
               <div className='space-y-6'>
-                <h2 className='text-xl mb-4'>
-                  Contact us via the form or call at
-                </h2>
+                <h2 className='text-xl mb-4'>{t("subtagline")}</h2>
 
                 <div className='flex items-center space-x-4'>
                   <div className='bg-blue-500 p-2 rounded-full'>
@@ -138,7 +136,7 @@ const ContactForm = () => {
         <Card className='bg-white shadow-lg'>
           <CardContent className='p-8'>
             <div className='flex items-center space-x-2 mb-6'>
-              <h2 className='text-2xl font-bold text-gray-800'>Let's talk</h2>
+              <h2 className='text-2xl font-bold text-gray-800'>{t("cta")}</h2>
               <MoveUpRight />
             </div>
 
@@ -146,7 +144,7 @@ const ContactForm = () => {
               <div className='grid md:grid-cols-2 gap-4'>
                 <div className='space-y-2'>
                   <Label htmlFor='name' className='text-sm font-medium'>
-                    Name*
+                    {t("form.name")}*
                   </Label>
                   <Input
                     id='name'
@@ -162,7 +160,7 @@ const ContactForm = () => {
 
                 <div className='space-y-2'>
                   <Label htmlFor='email' className='text-sm font-medium'>
-                    Business Email*
+                    {t("form.email")}*
                   </Label>
                   <Input
                     id='email'
@@ -180,7 +178,7 @@ const ContactForm = () => {
               <div className='grid md:grid-cols-2 gap-4'>
                 <div className='space-y-2'>
                   <Label htmlFor='phone' className='text-sm font-medium'>
-                    Phone Number*
+                    {t("form.phone")}*
                   </Label>
                   <Input
                     id='phone'
@@ -196,7 +194,7 @@ const ContactForm = () => {
 
                 <div className='space-y-2'>
                   <Label htmlFor='company' className='text-sm font-medium'>
-                    Company Name
+                    {t("form.company")}
                   </Label>
                   <Input
                     id='company'
@@ -212,7 +210,7 @@ const ContactForm = () => {
 
               <div className='space-y-2'>
                 <Label htmlFor='subject' className='text-sm font-medium'>
-                  Subject
+                  {t("form.subject")}
                 </Label>
                 <Input
                   id='subject'
@@ -227,7 +225,7 @@ const ContactForm = () => {
 
               <div className='space-y-2'>
                 <Label htmlFor='message' className='text-sm font-medium'>
-                  Message
+                  {t("form.message")}
                 </Label>
                 <Textarea
                   id='message'
@@ -256,7 +254,7 @@ const ContactForm = () => {
                   htmlFor='agreeToEmails'
                   className='text-sm text-gray-600'
                 >
-                  I agree to receive emails and/or phone calls from trials.id
+                  {t("agree")}
                 </Label>
               </div>
 
@@ -272,7 +270,7 @@ const ContactForm = () => {
                   </div>
                 ) : (
                   <div className='flex items-center justify-center space-x-2'>
-                    <span>Send Message</span>
+                    <span>{t("form.submit")}</span>
                     <Send className='w-4 h-4' />
                   </div>
                 )}

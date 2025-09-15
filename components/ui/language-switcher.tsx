@@ -2,7 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useTransition } from "react";
+import { useTransition, Suspense } from "react";
 import { Globe } from "lucide-react";
 import {
   DropdownMenu,
@@ -16,14 +16,13 @@ type Props = {
   className?: string;
 };
 
-export default function LanguageSwitcher({ className }: Props) {
-  const locale = useLocale(); // e.g. "en" or "en-US" or "id"
+function LanguageSwitcherCore({ className }: Props) {
+  const locale = useLocale();
   const router = useRouter();
-  const pathname = usePathname(); // current path e.g. /id/dashboard
-  const searchParams = useSearchParams(); // current querystring
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
 
-  // normalize: ambil bagian sebelum '-' kalau ada (mis. "en-US" -> "en")
   const baseLocale = typeof locale === "string" ? locale.split("-")[0] : locale;
 
   const languages = [
@@ -34,9 +33,8 @@ export default function LanguageSwitcher({ className }: Props) {
   function onSelectChange(nextLocale: string) {
     if (nextLocale === baseLocale) return;
 
-    // Ambil path tanpa locale segment di depan
     const segments = (pathname ?? "/").split("/");
-    segments[1] = nextLocale; // ganti locale lama dengan locale baru
+    segments[1] = nextLocale;
     const nextPath = segments.join("/");
 
     const paramsString = searchParams ? searchParams.toString() : "";
@@ -81,5 +79,22 @@ export default function LanguageSwitcher({ className }: Props) {
         ))}
       </DropdownMenuContent>
     </DropdownMenu>
+  );
+}
+
+function LanguageSwitcherFallback({ className }: Props) {
+  return (
+    <Button variant='outline' size='sm' className={className} disabled>
+      <Globe className='h-4 w-4 mr-2' />
+      🌐
+    </Button>
+  );
+}
+
+export default function LanguageSwitcher({ className }: Props) {
+  return (
+    <Suspense fallback={<LanguageSwitcherFallback className={className} />}>
+      <LanguageSwitcherCore className={className} />
+    </Suspense>
   );
 }

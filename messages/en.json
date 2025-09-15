@@ -159,5 +159,41 @@
         "description": "Seamlessly integrate analytics into your existing systems and workflows."
       }
     }
+  },
+  "Contact": {
+    "title": "Let's Build the Future Together with Comprehensive IT Solutions",
+    "description": "Partner with us to craft smart, scalable, and future-ready digital solutions tailored to your business needs.",
+    "subtagline": "Contact us via the form or call at",
+    "cta": "Let's talk",
+    "form": {
+      "name": "Name",
+      "email": "Business Email",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "agree": "I agree to receive emails and/or phone calls from Trials Indonesia"
+  },
+  "ChooseUs": {
+    "title": "Why Choose",
+    "description": "We are a trusted technology partner committed to driving your business success through innovative digital solutions and exceptional customer service.",
+    "expertise": {
+      "title": "In-depth Expertise",
+      "description": "Our team consists of experienced professionals with expertise in various technologies and industries. We understand the unique challenges of your business and provide the right solutions."
+    },
+    "customSolutions": {
+      "title": "Custom Solutions",
+      "description": "We believe that every business is unique. Therefore, we design solutions tailored to your specific needs, ensuring optimal results."
+    },
+    "customerFocus": {
+      "title": "Focus on Customers",
+      "description": "Customer satisfaction is our top priority. We work with you throughout the entire process, from concept to implementation, to ensure that our solutions meet your expectations."
+    },
+    "innovation": {
+      "title": "Sustainable Innovation",
+      "description": "In the ever-evolving world of technology, we remain at the forefront of innovation. We adopt the latest technologies and best practices to deliver relevant and effective solutions."
+    }
   }
 }

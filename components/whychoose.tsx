@@ -1,48 +1,47 @@
 import React from "react";
 import { PointerHighlight } from "./ui/pointer-highlight";
+import { useTranslations } from "next-intl";
 
 const WhyChooseUs = () => {
+  const t = useTranslations("ChooseUs");
   const features = [
     {
       id: "#1",
-      title: "Tailored Solutions for Your Business",
-      description:
-        "We don't offer one-size-fits-all apps. Every solution is customized to meet your unique business workflows and users' needs.",
+      title: t("expertise.title"),
+      description: t("expertise.description"),
     },
     {
       id: "#2",
-      title: "End-to-End Service",
-      description:
-        "From UI/UX design to backend development, deployment, and maintenance — we handle every aspect of your project with care and expertise.",
+      title: t("customSolutions.title"),
+      description: t("customSolutions.description"),
     },
     {
       id: "#3",
-      title: "Scalable & Future-Ready Architecture",
-      description:
-        "Our applications are built with modern architecture and clean code, so they grow seamlessly as your business expands.",
+      title: t("customerFocus.title"),
+      description: t("customerFocus.description"),
     },
     {
       id: "#4",
-      title: "Fast, Secure, and Reliable",
-      description:
-        "We use the latest frameworks and best practices to ensure your app performs efficiently while your data stays protected.",
+      title: t("innovation.title"),
+      description: t("innovation.description"),
     },
   ];
 
   return (
     <div className='py-16 px-4'>
       {/* Header */}
-      <div className='text-center mb-12'>
-        <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
-          Why{" "}
+      <div className='text-center mb-12 max-w-2xl mx-auto'>
+        <h2 className='text-3xl md:text-4xl mb-4'>
+          {t("title")}
           <PointerHighlight
             rectangleClassName='bg-blue-100 dark:bg-blue-900 border-blue-300 dark:border-blue-700 leading-loose'
             pointerClassName='text-blue-500 h-6 w-6'
             containerClassName='inline-block mx-1'
           >
-            <span className='relative z-10'>Choose Us?</span>
+            <span className='relative z-10'>Trials Indonesia?</span>
           </PointerHighlight>
         </h2>
+        <h4 className='text-gray-600 leading-relaxed'>{t("description")}</h4>
       </div>
 
       {/* Features Grid */}
@@ -58,7 +57,7 @@ const WhyChooseUs = () => {
             </div>
 
             {/* Title */}
-            <h3 className='text-xl font-bold text-gray-900 mb-4 leading-tight'>
+            <h3 className='text-2xl  text-gray-900 mb-4 leading-tight'>
               {feature.title}
             </h3>
 

@@ -160,5 +160,41 @@
         "description": "Integrasikan analitik ke dalam sistem dan alur kerja yang sudah ada dengan lancar."
       }
     }
+  },
+  "Contact": {
+    "title": "Mari Kita Bangun Masa Depan Bersama dengan Solusi IT yang Komprehensif",
+    "description": " Bergabunglah dengan kami untuk mengembangkan solusi digital yang cerdas, skalabel, dan siap untuk masa depan yang disesuaikan dengan kebutuhan bisnis Anda.",
+    "subtagline": "Hubungi kami untuk konsultasi gratis atau pertanyaan lainnya.",
+    "cta": "Mari Diskusi",
+    "form": {
+      "name": "Nama",
+      "email": "Email Bisnis",
+      "phone": "Nomor Telepon",
+      "company": "Perusahaan",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "submit": "Kirim Pesan"
+    },
+    "agree": "Saya setuju untuk menerima email dan/atau panggilan telepon dari Trials Indonesia"
+  },
+  "ChooseUs": {
+    "title": "Mengapa Memilih",
+    "description": "Kami adalah mitra teknologi tepercaya yang berkomitmen untuk mendorong kesuksesan bisnis Anda melalui solusi digital inovatif dan layanan pelanggan yang luar biasa.",
+    "expertise": {
+      "title": "Keahlian Mendalam",
+      "description": "Tim kami terdiri dari profesional berpengalaman dengan keahlian di berbagai teknologi dan industri. Kami memahami tantangan unik bisnis Anda dan menyediakan solusi yang tepat."
+    },
+    "customSolutions": {
+      "title": "Solusi Kustom",
+      "description": "Kami percaya bahwa setiap bisnis itu unik. Oleh karena itu, kami merancang solusi yang disesuaikan dengan kebutuhan spesifik Anda, memastikan hasil yang optimal."
+    },
+    "customerFocus": {
+      "title": "Fokus pada Pelanggan",
+      "description": "Kepuasan pelanggan adalah prioritas utama kami. Kami bekerja sama dengan Anda sepanjang perjalanan, dari konsep hingga implementasi, untuk memastikan solusi kami memenuhi harapan Anda."
+    },
+    "innovation": {
+      "title": "Inovasi Berkelanjutan",
+      "description": "Di dunia teknologi yang terus berkembang, kami tetap berada di garis depan inovasi. Kami mengadopsi teknologi terbaru dan praktik terbaik untuk memberikan solusi yang relevan dan efektif."
+    }
   }
 }
