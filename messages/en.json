@@ -1,13 +1,24 @@
 {
   "HomePage": {
-    "title": "Welcome to Next.js with i18n",
-    "description": "This is a multilingual application using Next.js and next-intl",
-    "changeLanguage": "Change Language",
-    "currentLanguage": "Current Language: English"
+    "title": "Empowering Growth with Scalable, AI-Powered Solutions",
+    "description": "Accelerate growth and efficiency through custom digital solutions designed for tomorrow.",
+    "cta": "Let's Talk",
+    "tools": "Tools & Frameworks Behind Our Solutions 🚀",
+    "services": {
+      "title": "Services",
+      "description": "Choose your solution, we'll bring it to life"
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "From ideas to Execution, Explore our diverse portfolio"
+    },
+    "ctas": {
+      "title": "Let's build something great together.",
+      "description": "We’d love to hear from you. Here’s how you can reach us."
+    }
   },
   "Navigation": {
     "home": "Home",
-
     "projects": "Projects",
     "blog": "Blog",
     "about": "About Us",
@@ -43,6 +54,109 @@
       "analytic": {
         "title": "Real-time Analytics Solutions",
         "description": "Stay ahead with real-time business intelligence."
+      }
+    }
+  },
+  "Services": {
+    "cta": "Let's Talk",
+    "web": {
+      "title": "Elevate your business with smart web development",
+      "description": "Trials Indonesia offers modern, responsive website development services customized to your business needs. From elegant designs to functional features, we help your brand look more professional in the digital world.",
+      "design": {
+        "title": "Design & User Experience",
+        "description": "We craft intuitive user interfaces that prioritize both form and function. From responsive layouts, we ensure your web app not only looks stunning but also works flawlessly across devices"
+      },
+      "development": {
+        "title": "Development & Engineering",
+        "description": "Our expert development team builds robust, scalable applications using cutting-edge technologies. We focus on clean code, performance optimization, and maintainable architecture."
+      },
+      "infrastructure": {
+        "title": "Infrastructure & DevOps",
+        "description": "We handle all aspects of deployment and infrastructure management. From cloud hosting to CI/CD pipelines, we ensure your application runs smoothly and scales efficiently."
+      },
+      "control": {
+        "title": "Control, Monitoring & Maintenance",
+        "description": "Ongoing monitoring and maintenance to keep your application running at peak performance. We provide analytics, error tracking, and regular updates to ensure optimal user experience."
+      }
+    },
+    "mobile": {
+      "title": "Deliver seamless mobile experiences with intuitive and high-performing apps.",
+      "description": "Trials Indonesia builds powerful, user-friendly mobile apps for both Android and iOS platforms. From concept to deployment, we create apps that deliver seamless performance and engaging experiences.",
+      "design": {
+        "title": "Mobile UI/UX Design",
+        "description": "We design sleek and intuitive mobile interfaces that enhance user engagement and improve retention."
+      },
+      "development": {
+        "title": "App Development",
+        "description": "Our team develops high-performance mobile applications tailored to your goals, ensuring fast, secure, and scalable apps."
+      },
+      "integration": {
+        "title": "API & System Integration",
+        "description": "We integrate your mobile app with existing systems, third-party services, and cloud infrastructure to enhance functionality."
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "description": "Continuous support and regular updates to ensure your app adapts to new technologies and user needs."
+      }
+    },
+    "cloud": {
+      "title": "Optimize your infrastructure with reliable and secure cloud solutions.",
+      "description": "Trials Indonesia helps businesses migrate to the cloud with secure, scalable, and cost-effective solutions. We design cloud architectures that support growth and flexibility.",
+      "migration": {
+        "title": "Cloud Migration",
+        "description": "Seamless transition of your applications and data to the cloud with minimal downtime."
+      },
+      "architecture": {
+        "title": "Cloud Architecture",
+        "description": "Custom cloud infrastructure design optimized for performance, scalability, and cost-efficiency."
+      },
+      "security": {
+        "title": "Cloud Security",
+        "description": "Implementing best practices to safeguard your applications, networks, and data in the cloud."
+      },
+      "management": {
+        "title": "Cloud Management",
+        "description": "We provide end-to-end management of your cloud environment to ensure seamless operations."
+      }
+    },
+    "ai": {
+      "title": "Enhance efficiency and decision-making with AI-powered technologies.",
+      "description": "Leverage artificial intelligence with Trials Indonesia to automate tasks, extract insights, and boost decision-making across your business applications.",
+      "automation": {
+        "title": "Intelligent Automation",
+        "description": "Streamline workflows by automating repetitive tasks with AI-driven tools."
+      },
+      "analytics": {
+        "title": "AI Analytics",
+        "description": "Unlock actionable insights using machine learning models and data-driven intelligence."
+      },
+      "integration": {
+        "title": "AI Integration",
+        "description": "Embed AI capabilities seamlessly into your existing systems and applications."
+      },
+      "innovation": {
+        "title": "Innovation & Custom Models",
+        "description": "Develop custom AI models tailored to your unique business challenges and opportunities."
+      }
+    },
+    "analytic": {
+      "title": "Unlock valuable business insights with powerful analytics and reporting.",
+      "description": "Stay ahead with real-time business intelligence solutions from Trials Indonesia. Transform your raw data into meaningful insights that drive smarter decisions.",
+      "dataCollection": {
+        "title": "Data Collection & Processing",
+        "description": "We design pipelines to gather, clean, and process your data from multiple sources."
+      },
+      "realTime": {
+        "title": "Real-Time Dashboards",
+        "description": "Monitor your business performance live with intuitive, interactive dashboards."
+      },
+      "insights": {
+        "title": "Advanced Insights",
+        "description": "Use analytics to uncover trends, patterns, and predictive outcomes."
+      },
+      "integration": {
+        "title": "System Integration",
+        "description": "Seamlessly integrate analytics into your existing systems and workflows."
       }
     }
   }

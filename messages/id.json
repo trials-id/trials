@@ -1,9 +1,21 @@
 {
   "HomePage": {
-    "title": "Selamat Datang di Next.js dengan i18n",
-    "description": "Ini adalah aplikasi multibahasa menggunakan Next.js dan next-intl",
-    "changeLanguage": "Ubah Bahasa",
-    "currentLanguage": "Bahasa Saat Ini: Bahasa Indonesia"
+    "title": "Mendorong Kemajuan dengan Solusi Berbasis AI yang Skalabel",
+    "description": "Percepat pertumbuhan dan efisiensi melalui solusi digital khusus yang dirancang untuk masa depan.",
+    "cta": "Mari Diskusi",
+    "tools": "Alat & Kerangka Kerja di Balik Solusi Kami 🚀",
+    "services": {
+      "title": "Layanan",
+      "description": "Pilih solusi Anda, kami akan mewujudkannya"
+    },
+    "projects": {
+      "title": "Proyek",
+      "description": "Dari ide hingga implementasi, jelajahi portofolio kami yang beragam"
+    },
+    "ctas": {
+      "title": "Ayo kita ciptakan karya luar biasa bersama.",
+      "description": "Kami senang mendengar kabar dari Anda. Berikut cara Anda dapat menghubungi kami."
+    }
   },
   "Navigation": {
     "home": "Beranda",
@@ -42,6 +54,110 @@
       "analytic": {
         "title": "Solusi Analitik Real-time",
         "description": "Selalu selangkah lebih maju dengan kecerdasan bisnis real-time."
+      }
+    }
+  },
+  "Services": {
+    "cta": "Mari Diskusi",
+    "web": {
+      "title": "Tingkatkan bisnis Anda dengan pengembangan web cerdas",
+      "description": "Trials Indonesia menawarkan layanan pembuatan website modern dan responsif yang disesuaikan dengan kebutuhan bisnis Anda. Dari desain elegan hingga fitur fungsional, kami membantu brand Anda tampil lebih profesional di dunia digital.",
+      "design": {
+        "title": "Desain & Pengalaman Pengguna",
+        "description": "Kami merancang antarmuka intuitif yang mengutamakan estetika sekaligus fungsi. Dengan layout responsif, kami memastikan aplikasi web Anda terlihat menawan sekaligus berjalan mulus di berbagai perangkat."
+      },
+      "development": {
+        "title": "Pengembangan & Rekayasa",
+        "description": "Tim pengembang kami membangun aplikasi yang tangguh dan skalabel dengan teknologi terkini. Kami fokus pada kode bersih, optimasi performa, dan arsitektur yang mudah dikelola."
+      },
+      "infrastructure": {
+        "title": "Infrastruktur & DevOps",
+        "description": "Kami menangani seluruh aspek deployment dan manajemen infrastruktur. Mulai dari hosting cloud hingga pipeline CI/CD, kami memastikan aplikasi Anda berjalan lancar dan dapat berkembang dengan efisien."
+      },
+      "control": {
+        "title": "Kontrol, Monitoring & Pemeliharaan",
+        "description": "Pemantauan dan pemeliharaan berkelanjutan untuk menjaga performa aplikasi tetap optimal. Kami menyediakan analitik, pelacakan error, dan pembaruan rutin demi pengalaman pengguna terbaik."
+      }
+    },
+    "mobile": {
+      "title": "Hadirkan pengalaman mobile yang intuitif dan berkinerja tinggi.",
+      "description": "Trials Indonesia membangun aplikasi mobile yang kuat dan mudah digunakan untuk platform Android maupun iOS. Dari konsep hingga publikasi, kami menghadirkan aplikasi dengan performa mulus dan pengalaman menarik.",
+      "design": {
+        "title": "Desain UI/UX Mobile",
+        "description": "Kami merancang antarmuka mobile yang elegan dan intuitif untuk meningkatkan keterlibatan serta retensi pengguna."
+      },
+      "development": {
+        "title": "Pengembangan Aplikasi",
+        "description": "Tim kami mengembangkan aplikasi mobile berkinerja tinggi sesuai kebutuhan Anda, dengan jaminan kecepatan, keamanan, dan skalabilitas."
+      },
+      "integration": {
+        "title": "Integrasi API & Sistem",
+        "description": "Kami mengintegrasikan aplikasi mobile dengan sistem yang sudah ada, layanan pihak ketiga, dan infrastruktur cloud untuk memperluas fungsionalitas."
+      },
+      "maintenance": {
+        "title": "Pemeliharaan & Dukungan",
+        "description": "Dukungan berkelanjutan dan pembaruan rutin untuk memastikan aplikasi Anda selalu relevan dengan teknologi dan kebutuhan pengguna terbaru."
+      }
+    },
+    "cloud": {
+      "title": "Optimalkan infrastruktur Anda dengan solusi cloud yang handal dan aman.",
+      "description": "Trials Indonesia membantu bisnis bermigrasi ke cloud dengan solusi yang aman, skalabel, dan hemat biaya. Kami merancang arsitektur cloud yang mendukung pertumbuhan dan fleksibilitas.",
+      "migration": {
+        "title": "Migrasi Cloud",
+        "description": "Transisi mulus aplikasi dan data Anda ke cloud dengan downtime minimal.",
+        "points": ["Migrasi Data", "Migrasi Aplikasi", "Solusi Hybrid"]
+      },
+      "architecture": {
+        "title": "Arsitektur Cloud",
+        "description": "Desain infrastruktur cloud yang disesuaikan untuk performa, skalabilitas, dan efisiensi biaya."
+      },
+      "security": {
+        "title": "Keamanan Cloud",
+        "description": "Penerapan praktik terbaik untuk melindungi aplikasi, jaringan, dan data Anda di cloud."
+      },
+      "management": {
+        "title": "Manajemen Cloud",
+        "description": "Kami menyediakan manajemen menyeluruh atas lingkungan cloud Anda untuk kelancaran operasional."
+      }
+    },
+    "ai": {
+      "title": "Tingkatkan efisiensi dan pengambilan keputusan dengan teknologi AI.",
+      "description": "Manfaatkan kecerdasan buatan bersama Trials Indonesia untuk mengotomatiskan tugas, menggali insight, dan meningkatkan pengambilan keputusan di aplikasi bisnis Anda.",
+      "automation": {
+        "title": "Otomatisasi Cerdas",
+        "description": "Permudah alur kerja dengan mengotomatiskan tugas berulang menggunakan alat berbasis AI."
+      },
+      "analytics": {
+        "title": "Analitik AI",
+        "description": "Dapatkan insight yang dapat ditindaklanjuti dengan model machine learning dan analitik berbasis data."
+      },
+      "integration": {
+        "title": "Integrasi AI",
+        "description": "Tambahkan kemampuan AI ke dalam sistem dan aplikasi yang sudah ada dengan mulus."
+      },
+      "innovation": {
+        "title": "Inovasi & Model Kustom",
+        "description": "Kembangkan model AI khusus untuk menjawab tantangan dan peluang unik bisnis Anda."
+      }
+    },
+    "analytic": {
+      "title": "Dapatkan wawasan bisnis berharga dengan analitik dan pelaporan yang kuat.",
+      "description": "Tetap selangkah lebih maju dengan solusi business intelligence real-time dari Trials Indonesia. Ubah data mentah Anda menjadi insight yang bermakna untuk keputusan yang lebih cerdas.",
+      "dataCollection": {
+        "title": "Pengumpulan & Pemrosesan Data",
+        "description": "Kami membangun pipeline untuk mengumpulkan, membersihkan, dan memproses data dari berbagai sumber."
+      },
+      "realTime": {
+        "title": "Dashboard Real-time",
+        "description": "Pantau performa bisnis Anda secara langsung dengan dashboard interaktif dan intuitif."
+      },
+      "insights": {
+        "title": "Insight Lanjutan",
+        "description": "Gunakan analitik untuk menemukan tren, pola, dan hasil prediktif."
+      },
+      "integration": {
+        "title": "Integrasi Sistem",
+        "description": "Integrasikan analitik ke dalam sistem dan alur kerja yang sudah ada dengan lancar."
       }
     }
   }
